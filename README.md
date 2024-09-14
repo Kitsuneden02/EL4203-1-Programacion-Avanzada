@@ -1,4 +1,4 @@
-![repo](https://github.com/user-attachments/assets/6f8acc46-c66e-4610-9404-7e9498952a2d)
+![repo](https://github.com/user-attachments/assets/0eb45968-bc53-4329-a84d-3d1f00a13a2d)
 
 # EL4203-1 Programación Avanzada
 

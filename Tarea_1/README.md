@@ -38,3 +38,4 @@ Cuando un programa tiene varias etapas o pasos secuenciales, la complejidad tota
 La complejidad temporal de un algoritmo recursivo se puede determinar utilizando una **relación de recurrencia**, que describe el número de operaciones en función del tamaño del problema. Luego, se resuelve esta relación para obtener la complejidad total. Un ejemplo común es el algoritmo de **divide y vencerás**, donde se descompone un problema en subproblemas más pequeños. En algunos casos, se puede utilizar el **Teorema Maestro** para resolver la recurrencia y encontrar la complejidad.
 
 ---
+

@@ -1,4 +1,5 @@
 import math
+from src.decoradores import medir_tiempo
 
 class CaminosPCB:
     def __init__(self, n, m):
@@ -28,3 +29,16 @@ class CaminosPCB:
                 if j > 0:
                     dp[i][j] += dp[i][j - 1]
         return dp[self.n - 1][self.m - 1]
+
+    # Métodos decorados
+    @medir_tiempo
+    def ejecutar_recursivo(self):
+        return self.caminos_recursivo()
+
+    @medir_tiempo
+    def ejecutar_combinatorio(self):
+        return self.caminos_combinatorio()
+
+    @medir_tiempo
+    def ejecutar_dinamico(self):
+        return self.caminos_dinamico()

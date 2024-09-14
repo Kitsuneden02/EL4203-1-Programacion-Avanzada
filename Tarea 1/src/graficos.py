@@ -8,4 +8,5 @@ def graficar_tiempos(n, tiempos, etiquetas):
     plt.title("Comparación de tiempos de ejecución")
     plt.legend()
     plt.savefig('tiempos_ejecucion.svg')
+    plt.savefig('tiempos_ejecucion.png')
     plt.show()
